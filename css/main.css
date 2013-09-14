@@ -229,6 +229,7 @@ ul {
 	text-align: justify;
 }
 .previusWorkContainer {
+	position:relative;
 	display: inline-block;
 	width: 32%;
 	min-width: 225px;
@@ -242,13 +243,25 @@ ul {
 	margin-bottom: 10px;
 	line-height: 100%;
 }
-
 .projectImageBox {
 	width: 100%;
 	height:100px;
 	background-position: center;
 	background-size: cover;
 }
+.projectImageBox a, .projectImageBox span {
+	display:inline-block;
+	width:100%;
+	height:100%;
+}
+.clickableImageOverlay {
+	position:absolute;
+	display:inline-block;
+	width: 100%;
+	height: 100%;
+	left:0;
+}
+
 .greenkitchen .projectImageBox {
 	background-image: url(../img/greenkitchen.png);
 }
@@ -277,7 +290,7 @@ ul {
 		padding:0;
 		text-align: center;
 		width:100%;
-		box-shadow: 5px 0 2px rgba(0, 0, 0, 0.5);
+		top:-5px;
 	}
 }
 
