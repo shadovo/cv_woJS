@@ -60,7 +60,7 @@ img {
 	color: #aaa;
 }
 hr {
-	margin:30px auto 50px auto;
+	margin:30px auto 30px auto;
 	border: 1px solid #ddd;
 	width: 90%;
 }
@@ -271,16 +271,41 @@ ul {
 .wkly .projectImageBox {
 	background-image: url(../img/wkly.png);
 }
-
-
 .futureSection h2 {
 	text-align: right;
 }
-
-
+.contactHR {
+	margin-bottom: 0px;
+}
 .contacSection {
 	padding-bottom: 40px;
+	position:relative;
+	text-align: center;
+	margin-top: 0;
 }
+.OscarRundhImg {
+	position:relative;
+	height: 200px;
+	top:10px;
+	margin-left:10px;
+}
+.contactInfo {
+	position:relative;
+	display:inline-block;
+	border-right: 2px solid #ddd;
+	padding-right:10px;
+	text-align: right;
+	top:-10px;
+	margin-left: -20px;
+}
+.contactInfo img {
+	width: 20px;
+	position:relative;
+	top:4px;
+	margin-left: 5px;
+	opacity: 0.5;
+}
+
 
 @media only screen and (max-width: 830px) { 
 	.menuBar {
@@ -324,6 +349,15 @@ ul {
 		margin: 20px 10%;
 		max-width:100%;
 	}
+	.contactInfo {
+		margin-left: 10px;
+	}
+}
+
+@media only screen and (max-width: 510px) {
+	.contactInfo {
+		margin-left: 0;
+	}
 }
 
 @media only screen and (max-width: 400px) {
@@ -333,5 +367,8 @@ ul {
 	}
 	h1, h2 {
 		font-size: 55px;		
+	}
+	.contacSection { 
+		margin-top:30px;
 	}
 }
