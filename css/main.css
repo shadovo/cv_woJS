@@ -341,6 +341,7 @@ ul {
 	.previusWorkContainer p {
 		margin:12px;
 		height:auto;
+		font-size: 14px;
 	}
 	.previusWorkSection h3 {
 		display:none;
@@ -394,5 +395,8 @@ ul {
 	}
 	.contacSection { 
 		margin-top:30px;
+	}
+	.previusWorkContainer p {
+		font-size: 13px;
 	}
 }
