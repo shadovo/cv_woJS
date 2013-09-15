@@ -288,6 +288,7 @@ ul {
 	height: 200px;
 	top:10px;
 	margin-left:10px;
+	opacity:0.95;
 }
 .contactInfo {
 	position:relative;
@@ -334,7 +335,11 @@ ul {
 	.previusWorkSection h3 {
 		display:none;
 	}
-
+}
+@media only screen and (max-width: 760px) { 
+	.menuBar ul li {
+		width: 35%;
+	}
 }
 
 @media only screen and (max-width: 630px) {
@@ -357,6 +362,13 @@ ul {
 @media only screen and (max-width: 510px) {
 	.contactInfo {
 		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 415px) {
+	.menuBar ul li {
+		width: 55%;
+		text-align: left;
 	}
 }
 
