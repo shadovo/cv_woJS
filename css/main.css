@@ -25,7 +25,7 @@ p {
 	font-size: 18px;
 	color:#7e7c7c;
 	font-family: Helvetica, sans-serif;
-	line-height: 150%;	
+	line-height: 140%;	
 }
 h1, h2, h3, h4, h5, h6 {
 	color:#7e7c7c;
@@ -39,6 +39,16 @@ h3 {
 }
 a, a:hover, a:visited {
 	text-decoration: none;
+}
+
+.previusWorkSection a {
+	color: #6da5d9;
+}
+.previusWorkSection a:visited {
+	color: #6da5d9;
+}
+.previusWorkSection a:hover {
+	text-decoration: underline;
 }
 
 .contacSection a {
@@ -234,14 +244,17 @@ ul {
 	width: 32%;
 	min-width: 225px;
 	margin: auto auto;
-	border: 2px solid #CCC;
+	border: 2px solid #d8d8d8;
 	padding: 1px;
+	margin-top: 20px;
+	vertical-align: top;
 }
 .previusWorkContainer p {
-	font-size: 14px;
+	font-size: 12px;
 	margin: 0 8px;
 	margin-bottom: 10px;
 	line-height: 100%;
+	height: 85px;
 }
 .projectImageBox {
 	width: 100%;
@@ -307,8 +320,7 @@ ul {
 	opacity: 0.5;
 }
 
-
-@media only screen and (max-width: 830px) { 
+@media only screen and (max-width: 850px) { 
 	.menuBar {
 		border:none;
 		background:#c2c2c2;
@@ -318,9 +330,6 @@ ul {
 		width:100%;
 		top:-5px;
 	}
-}
-
-@media only screen and (max-width: 820px) { 
 	.previusWorkContainer {
 		display: block;
 		width: 100%;
@@ -331,11 +340,13 @@ ul {
 	}
 	.previusWorkContainer p {
 		margin:12px;
+		height:auto;
 	}
 	.previusWorkSection h3 {
 		display:none;
 	}
 }
+
 @media only screen and (max-width: 760px) { 
 	.menuBar ul li {
 		width: 35%;
@@ -345,7 +356,7 @@ ul {
 @media only screen and (max-width: 630px) {
 
 	p {
-		font-size: 16px;		
+		font-size: 1em;		
 	}
 	.projectImageBox {
 		height:100px;
@@ -369,6 +380,7 @@ ul {
 	.menuBar ul li {
 		width: 55%;
 		text-align: left;
+		font-size: 32px;
 	}
 }
 
